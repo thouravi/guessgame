@@ -3,7 +3,7 @@ import random
 secretNumber = random.randint(1,10)
 print ("I'm taking a guess between 1 to 10.")
 
-for guessTaken in range(1,7):
+for guessTaken in range(1,4):
     guess = int(input("Take a guess:"))
 
     if guess < secretNumber:
